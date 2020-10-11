@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About Us</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/css.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/aboutus.css"/>
+
+    </head>
+    <body>
+      <section>
+        <div id="home">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="javascript.html">Javascript</a></li>
+            <li><a href="php.html">PHP</a></li>
+            <li class="dropdown">
+              <a href="aboutus.html" class="dropbtn">About Us</a>
+              <div class="dropdown-content">
+                <a href="aboutus.html">Mustafa Abuthuraya</a>
+                <a href="aboutus.html">Ahmad hezbawi</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div id=homeContent>
+          <h1>About Us</h1>
+        
+        <!-- We are making a table withm 20 spacing between cells
+        We are having two columns to divide the info side by side -->
+        
+        <table cellspacing="20">
+            <tr>
+              <td>
+                <img src="../Images/moose.jpg" usemap="#sliceImg" />
+                <map name="#sliceImg">
+                <area
+                shape="circle"
+                coords="176,202,100"
+                alt="moose pic"
+                href="https://www.linkedin.com/in/mustafaabuthuraya/"
+              />
+            </map>
+              <td>
+                <h1
+                  title="Mustafa Ammar Abuthuraya"
+                  style="color: rgba(89, 89, 89, 1)"
+                >
+                  Mustafa "Moose" Abuthuraya
+                </h1>
+                <p>My name is <strong><em>Mustafa Abuthuraya</em></strong
+                >. I am senior CS student at Prince Sultan University.<br />
+                I am aspiring to assist in software engineering projects using my
+                technical background<br />
+                as well as gaining organizational and leadership skills in a
+                well-respected organization.<p>
+                <address>Riyadh, Saudi Arabia</address>
+                <email>216110014@psu.edu.sa</email>
+                <br>
+                <a href="https://www.instagram.com/"><i class="social-icon fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mustafaabuthuraya/"><i class="social-icon fa fa-linkedin" aria-hidden="true"></i></a>
+                <!-- break-->
+              </td>
+            </tr>
+          </table>
+
+                
+        <table cellspacing="20">
+            <tr>
+              <td>
+                <a href = "https://www.linkedin.com/in/ahmadhezbawi/"><img src="../Images/ahmad.jpg" /></a>
+                
+            </map>
+              <td>
+                <h1
+                  title="Ahmad"
+                  style="color: rgba(89, 89, 89, 1)"
+                >
+                  Ahmad "Yahm-Yahm" Hezbawi
+                </h1>
+                <p>My name is <strong><em>Ahmad Hezbawi</em></strong
+                >. I am senior SE student at Prince Sultan University.<br />
+                I am going to be hokage one day. I am looking to sharpen my skills in what I do.<br />
+                <p>
+                <address>Riyadh, Saudi Arabia</address>
+                <email>216110489@psu.edu.sa</email>
+                <br>
+                <a href="https://www.instagram.com/"><i class="social-icon fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ahmadhezbawi/"><i class="social-icon fa fa-linkedin" aria-hidden="true"></i></a>
+                <!-- break-->
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      
+      <form
+      class=""
+      action="mailto:216110014@psu.edu.sa"
+      method="post"
+      enctype="text/plain"
+    >
+      <!-- action is what the triggers below make the action do  -->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" /><br />
+      <label for="">Your Email:</label>
+      <input type="email" name="yourEmail" value="" /><br />
+      <label for="">Your Message:</label><br />
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br />
+      <input type="submit" name="" />
+    </form>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.7317184294293!2d46.6991322148356!3d24.736089084112688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0292c1fb5529%3A0x3fbc5cb308e60dd8!2sPrince%20Sultan%20University!5e0!3m2!1sen!2ssa!4v1602255944804!5m2!1sen!2ssa" style="align-self: center;" width="300" height="225" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+      <footer>
+        <p>
+            © 2020 Moose Studios
+        </p>
+    </footer>
+
+    </body>
+</html>

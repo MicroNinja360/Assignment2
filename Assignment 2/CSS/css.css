@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Sansita+Swashed:wght@300&display=swap");
+/* This is will be applied for all documents  */
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+}
+
+/* These are changes done for all ids */
+
+/* #home {
+  } */
+#homeContent {
+  margin: 20px;
+}
+
+#codeContent {
+  margin: 18px;
+}
+
+#imageContent {
+  margin: 18px;
+}
+
+/* code for navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #686d76;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #a6f6f1;
+  color: #333;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  background-color: #19d3da;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+}
